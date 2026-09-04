@@ -1,3 +1,7 @@
+import MascotaImagen from "@/components/MascotaImagen";
+
+export const dynamic = "force-dynamic";
+
 interface DogApiResponse {
   message: string;
   status: string;
@@ -9,6 +13,7 @@ async function obtenerPerro(): Promise<string | null> {
       "https://dog.ceo/api/breeds/image/random",
       {
         cache: "no-store",
+        signal: AbortSignal.timeout(8000),
       }
     );
 
@@ -47,7 +52,7 @@ export default async function RazasPage() {
 
       {imagenPerro ? (
         <section className="overflow-hidden rounded-2xl bg-white shadow-lg">
-          <img
+          <MascotaImagen
             src={imagenPerro}
             alt="Imagen de perro obtenida desde una API externa"
             className="h-[500px] w-full object-cover"
