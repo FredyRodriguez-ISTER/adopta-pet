@@ -11,15 +11,15 @@ AdoptaPet es una plataforma web para publicar mascotas en adopción y facilitar 
 
 ### Página de inicio
 
-<!-- <img width="1600" height="900" alt="WhatsApp Image 2026-09-04 at 12 47 21" src="https://github.com/user-attachments/assets/9cb43ab3-dcc4-4e21-96b3-5fd7e4980e37" /> -->
+![Página de inicio de AdoptaPet](./docs/capturas/inicio.jpeg)
 
 ### Catálogo de mascotas
 
-<!-- <img width="1600" height="900" alt="WhatsApp Image 2026-09-04 at 12 50 46" src="https://github.com/user-attachments/assets/20c45728-0e46-4430-90f0-4d50ee03e992" /> -->
+![Catálogo de mascotas](./docs/capturas/catalogo.jpeg)
 
 ### Panel de usuario
 
-<!-- <img width="1600" height="900" alt="WhatsApp Image 2026-09-04 at 12 49 39" src="https://github.com/user-attachments/assets/2b0d5814-97d3-421a-8f79-76106d158669" /> -->
+![Panel de usuario refugio](./docs/capturas/panel-usuario.jpeg)
 
 ## Tecnologías utilizadas
 
@@ -94,8 +94,8 @@ El esquema de la base de datos y las políticas RLS se encuentran en [supabase/s
 4. Completa `.env.local` con las credenciales públicas de tu proyecto Supabase.
 
    ```dotenv
-   NEXT_PUBLIC_SUPABASE_URL=https://qhyemdbreorwpwkujdzs.supabase.co
-   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_1pfYG3GLtQsNK7emw7km5w_3y3uPMjG
+   NEXT_PUBLIC_SUPABASE_URL=https://tu-proyecto.supabase.co
+   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=tu-clave-publishable
    ```
 
 5. Ejecuta el contenido de [supabase/schema.sql](./supabase/schema.sql) en el SQL Editor de Supabase.
@@ -112,8 +112,8 @@ La aplicación estará disponible en `http://localhost:3000`.
 
 | Rol | Correo | Contraseña |
 | --- | --- | --- |
-| Adoptante |odalis-yanez@hotmail.com  |guezo2002  |
-| Refugio |voltio.quito@gmail.com  |Fpjfaml2023@  |
+| Adoptante |  |  |
+| Refugio |  |  |
 
 ## Despliegue
 
