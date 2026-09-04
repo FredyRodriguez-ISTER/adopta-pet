@@ -2,7 +2,7 @@
 
 AdoptaPet es una plataforma para conectar refugios con personas que desean dar un hogar responsable a una mascota. Los refugios publican y administran mascotas; los adoptantes pueden explorar, filtrar, guardar favoritos y enviar solicitudes de adopción.
 
-**Demo en vivo:** pendiente de desplegar en Vercel. Sigue la sección [Despliegue](#despliegue-en-vercel) para publicar la URL real.
+**Demo en vivo:** [adopta-pet-sepia.vercel.app](https://adopta-pet-sepia.vercel.app)
 
 ## Capturas de pantalla
 
@@ -151,9 +151,9 @@ npm run start
 2. En Vercel, selecciona **Add New → Project** e importa el repositorio.
 3. Añade `NEXT_PUBLIC_SUPABASE_URL` y `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` en **Settings → Environment Variables** para Production y Preview.
 4. Despliega. Copia el dominio generado.
-5. En Supabase, agrega `https://TU-DOMINIO.vercel.app/auth/callback` en las Redirect URLs y configura el Site URL con el dominio de Vercel.
+5. En Supabase, agrega `https://adopta-pet-sepia.vercel.app/auth/callback` en las Redirect URLs y configura el Site URL con `https://adopta-pet-sepia.vercel.app`.
 6. Prueba registro, login, ambas cuentas, CRUD, favoritos, solicitudes y `/razas` en la URL pública.
-7. Añade la URL resultante y tres capturas reales a este README.
+7. La versión actual está publicada en [adopta-pet-sepia.vercel.app](https://adopta-pet-sepia.vercel.app). Añade tres capturas reales antes de la entrega final.
 
 ## Historial Git recomendado
 
