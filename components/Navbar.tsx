@@ -25,6 +25,13 @@ export default function Navbar() {
           >
             Mascotas
           </Link>
+          
+          <Link
+  href="/razas"
+  className="text-gray-700 transition hover:text-green-700"
+>
+  Razas
+</Link>
 
           <Link
             href="/login"
