@@ -1,27 +1,25 @@
-import MascotaCard from "@/components/MascotaCard";
+import FiltroMascotas from "@/components/FiltroMascotas";
 import { mascotas } from "@/types/mascotas";
 
 export default function MascotasPage() {
   return (
     <main className="mx-auto max-w-6xl px-6 py-12">
       <div className="mb-10">
-        <h1 className="text-4xl font-bold">
+        <p className="font-medium text-green-700">
+          🐾 AdoptaPet
+        </p>
+
+        <h1 className="mt-2 text-4xl font-bold">
           Mascotas en adopción
         </h1>
 
-        <p className="mt-2 text-gray-600">
-          Encuentra el compañero ideal para tu familia.
+        <p className="mt-3 max-w-2xl text-gray-600">
+          Explora nuestro catálogo y encuentra un compañero
+          que esté buscando un hogar responsable.
         </p>
       </div>
 
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {mascotas.map((mascota) => (
-          <MascotaCard
-            key={mascota.id}
-            mascota={mascota}
-          />
-        ))}
-      </div>
+      <FiltroMascotas mascotas={mascotas} />
     </main>
   );
 }
