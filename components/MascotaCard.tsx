@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Mascota } from "@/types";
+import MascotaImagen from "./MascotaImagen";
 
 interface MascotaCardProps {
   mascota: Mascota;
@@ -10,7 +11,7 @@ export default function MascotaCard({
 }: MascotaCardProps) {
   return (
     <article className="overflow-hidden rounded-2xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
-      <img
+      <MascotaImagen
         src={mascota.imagen_url}
         alt={`Foto de ${mascota.nombre}`}
         className="h-64 w-full object-cover"
