@@ -94,8 +94,8 @@ El esquema de la base de datos y las políticas RLS se encuentran en [supabase/s
 4. Completa `.env.local` con las credenciales públicas de tu proyecto Supabase.
 
    ```dotenv
-   NEXT_PUBLIC_SUPABASE_URL=https://tu-proyecto.supabase.co
-   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=tu-clave-publishable
+   NEXT_PUBLIC_SUPABASE_URL=https://qhyemdbreorwpwkujdzs.supabase.co
+   NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_1pfYG3GLtQsNK7emw7km5w_3y3uPMjG
    ```
 
 5. Ejecuta el contenido de [supabase/schema.sql](./supabase/schema.sql) en el SQL Editor de Supabase.
@@ -112,8 +112,8 @@ La aplicación estará disponible en `http://localhost:3000`.
 
 | Rol | Correo | Contraseña |
 | --- | --- | --- |
-| Adoptante |  |  |
-| Refugio |  |  |
+| Adoptante |odalis-yanez@hotmail.com  |guezo2002  |
+| Refugio |voltio.quito@gmail.com  |Fpjfaml2023@  |
 
 ## Despliegue
 
